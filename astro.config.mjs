@@ -5,6 +5,7 @@ import AstroNode from '@astrojs/node';
 // https://astro.build/config
 export default defineConfig({
   // Enable Svelte to support Svelte components.
+	output: 'server',
   integrations: [svelte()],
   base: '/ok',
   server: {
